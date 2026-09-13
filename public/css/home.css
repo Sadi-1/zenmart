@@ -586,5 +586,379 @@
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
-  background-color: #E5EDFF;
+  background-color: #e5edff;
 }
+
+/* HEADPHONES FRAME */
+.headphones-frame {
+  margin-top: 30px;
+}
+
+.headphones-frame .container {
+  position: relative;
+  width: 1320px;
+  height: auto;
+  display: flex;
+  margin: 20px auto;
+}
+
+.headphones-left {
+  display: flex;
+  flex-direction: row;
+  width: 664px;
+  height: 340px;
+  background-color: rgb(243, 245, 246, 1);
+  border-radius: 6px;
+}
+
+.headphone-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+
+.headphone-box img {
+  width: 322.45px;
+  height: 309px;
+}
+
+.headphone-box span {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.headphone-box strong {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.headphone-box p {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.headphone-box p:hover {
+  border-bottom: 1px solid rgba(4, 30, 66, 1);
+}
+
+.headphones-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  width: 48%;
+  gap: 10px;
+}
+
+.headphones-right .text-box {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.headphones-right p {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.headphones-right div {
+  width: 294px;
+  height: 165px;
+  background-color: rgb(243, 245, 246, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-right img {
+  width: 85.6px;
+  height: 107px;
+}
+
+.headphones-frame .category_top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headphones-frame .category_top span {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.headphones-frame .category_top a {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  height: 25px;
+}
+
+.headphones-frame .category_top a:hover {
+  border-bottom: 1px solid rgba(4, 30, 66, 1);
+}
+
+/* TV FRAME */
+.tv-frame {
+  position: relative;
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tv-frame .container {
+  flex-direction: column;
+}
+
+.tv-frame .container .tv-wrapper {
+  position: relative;
+  margin-top: 30px;
+  width: 1005;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.tv-frame .category_top div {
+  display: flex;
+  gap: 20px;
+}
+
+.tv-frame .category_top span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.tv-frame .category_top a {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.tv-frame .category_top a:hover {
+  border-top: 1px solid #041e42;
+  color: rgba(4, 30, 66, 1);
+}
+
+.tv-frame .tv-wrapper .next_prev_box {
+  width: 60px;
+}
+
+.tv-frame .next_prev_box img {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.tv-frame .tv-wrapper .tv-boxes {
+  position: relative;
+  width: 1224px;
+  height: 452px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.tv-frame .tv-boxes .tv-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.tv-frame .tv-box .tv-img_box {
+  width: 100%;
+  height: 280px;
+}
+
+.tv-frame .tv-box .hover_box {
+  margin-bottom: 10px;
+  display: none;
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tv-frame .hover_box button {
+  margin-bottom: 10px;
+  width: 260px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
+  background: rgba(0, 83, 246, 1);
+}
+
+.tv-frame .tv-box:hover .hover_box {
+  display: flex;
+}
+
+.tv-frame .tv-box .tv-content_box {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.tv-frame .tv-box {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+.tv-frame .tv-content_box .tv-title {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.tv-frame .tv-content_box .tv-desc {
+  width: 222.06px;
+  height: 56px;
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.tv-frame .tv-content_box .review_box {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tv-frame .review_box img {
+  margin-right: 5px;
+}
+
+.tv-frame .review_box span {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.tv-frame .tv-content_box .price_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tv-frame .price_box strong {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.tv-frame .price_box span {
+  margin-left: 10px;
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: line-through;
+}
+
